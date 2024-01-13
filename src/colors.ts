@@ -1,0 +1,20 @@
+export const colors = {
+  black: 0,
+  red: 1,
+  green: 2,
+  yellow: 3,
+  blue: 4,
+  purple: 5,
+  cyan: 6,
+  silver: 7,
+  gray: 8,
+  bright: {
+    red: 9,
+    green: 10,
+    yellow: 11,
+    blue: 12,
+    purple: 13,
+    cyan: 14,
+  },
+  white: 15,
+};

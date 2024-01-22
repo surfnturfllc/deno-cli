@@ -1,7 +1,2 @@
-import { colors } from "./colors.ts";
-import * as prompt from "./prompt.ts";
-
-export {
-    colors,
-    prompt,
-}
+export { colors } from "./colors.ts";
+export * as prompt from "./prompt.ts";

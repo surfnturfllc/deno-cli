@@ -2,6 +2,11 @@ import { deps } from "./deps.ts";
 import { colors } from "./colors.ts";
 
 
+export function line(text: string): string | undefined {
+  return prompt(text) || undefined;
+}
+
+
 export async function password(message: string) {
   const encoder = new TextEncoder();
   const decoder = new TextDecoder();

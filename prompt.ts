@@ -2,8 +2,8 @@ import { deps } from "./deps.ts";
 import { colors } from "./colors.ts";
 
 
-export function line(text: string): string | undefined {
-  return prompt(text) || undefined;
+export function line(message?: string, defaultValue?: string): string | undefined {
+  return prompt(message, defaultValue) || undefined;
 }
 
 
